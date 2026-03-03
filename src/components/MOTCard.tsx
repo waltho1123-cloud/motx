@@ -18,7 +18,7 @@ interface Props {
 }
 
 export default function MOTCard({ mot, index }: Props) {
-  const { state, updateMOT, deleteMOT, getMessagesForDimension } = useAppContext();
+  const { updateMOT, deleteMOT, getMessagesForDimension } = useAppContext();
 
   const update = (updates: Partial<Omit<MOT, 'id'>>) =>
     updateMOT(mot.id, updates);

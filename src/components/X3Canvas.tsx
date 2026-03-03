@@ -1,6 +1,6 @@
 import { Lock, Sparkles, LayoutGrid } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
-import { DIMENSIONS, DIMENSION_SLOGANS, COGNITIVE_SYSTEM_LABELS } from '../types';
+import { DIMENSION_SLOGANS, COGNITIVE_SYSTEM_LABELS } from '../types';
 import type { AppState, MOT } from '../types';
 
 // ===== 28 格定義 =====
