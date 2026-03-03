@@ -75,10 +75,6 @@ function AppContent() {
         {activeTab === 'viz' && <Visualization />}
       </main>
 
-      {/* 頁尾 */}
-      <footer className="py-4 text-center text-xs text-slate-400/70">
-        基於《峰值體驗 2》汪志謙 — 選對人．做對事．說對話
-      </footer>
     </div>
   );
 }
